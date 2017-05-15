@@ -1,4 +1,8 @@
-.nav .nav-item .nav-link{
-  list-style-type: none;
+#body{
+  font-family: serif;
+}
 
+#footerCarte{
+  border-radius: 10px;
+  width: 30%;
 }
