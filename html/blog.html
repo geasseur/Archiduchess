@@ -4,35 +4,57 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <title>Blog</title>
 </head>
 <body>
-  <header class="container-fluid" id="header">
-      <section class="row d-flex justify-content-between">
-        <nav class="navbar navbar-toggleable-md navbar-light bg-faded col-md-down col-2 col-xs-2 col-sm-2">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-              </ul>
-            </div>
-        </nav>
-        <img src="../img/logo/Archiduchess.png" alt="logo du site" class="col-3 col-xs-5 col-sm-4 col-md-3 col-lg-2 col-xl-2">
-        <img src="../img/logo/cadis.png" alt="cadis" class="col-3 col-xs-3 col-sm-3 col-md-2 col-lg-2 col-xl-1">
-      </section>
-  </header>
+  <header>
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#"><img class="col-3 col-xs-3 col-ms-3 col-md-3 col-lg-8 col-xl-9 offset-2" src="../img/logo/Archiduchess.png" alt="logo site"></a>
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <ul class="nav justify-center">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Index<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="html/blog.html">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="html/blog.html">Contact</a>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">De ville<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="html/blog.html">De luxe</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="html/blog.html">Bouclette</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="html/blog.html">Fantaisie</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="html/blog.html">Socquette</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="html/blog.html">Collants</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</header>
   <main>
 
     <section class="container">
@@ -50,7 +72,7 @@
             <p>Ces espadrilles en toile sont disponibles du 37 au 44, nous vous recommandons de prendre votre taille habituelle ou celle en dessous car la toile peut légèrement s’élargir.</p>
 
             <p>On espère qu’elles vous plairont et que vous passerez un été coloré en leur compagnie !
-A découvrir <a href="#">ICI</a></p>
+A découvrir <a href="#" class="text-muted">ICI</a></p>
 
             <p>L’équipe Archiduchesse, pour vous servir…</p>
 
@@ -64,7 +86,7 @@ A découvrir <a href="#">ICI</a></p>
         </section>
 
         <section>
-          <a href="#"><h2>NEW IN – des petites nouvelles d’Archiduchesse</h2></a>
+          <a href="#" class="text-muted"><h2>NEW IN – des petites nouvelles d’Archiduchesse</h2></a>
           <article class="">
             <p>Bonjour à tous,
 
@@ -110,13 +132,39 @@ A découvrir <a href="#">ICI</a></p>
           </figure>
         </section>
 
-        <section></section>
-        <section></section>
+        <section>
+          <a href="#" class="text-muted"><h2>Nouveauté: les socquettes fantaisies!</h2></a>
+          <p></p>Notre modèle <a href="#" class="text-muted">Bénodet</a>, marinière façon Archiduchesse, fait enfin son entrée dans notre gamme de socquettes! Toujours disponibles en 36/41 et 42/46, nous vous présentons les chaussettes de votre printemps!</p>
+          <img src="../img/mobile/blog/imgblog3.png" alt="image chaussette">
+        </section>
+
+        <section>
+          <a href="#" class="text-muted"><h2>Nouveauté: La chevronnée Bleue!</h2></a>
+          <figure>
+            <figcaption>
+              <p>Lors de notre partenariat avec Brice en Décembre vous aviez beaucoup aimé notre modèle Chevron. La demande a été si forte que nous avons lancé notre modèle et nous sommes contents de vous présenter la première paire de notre collection Chevronnée. Nous commençons avec le modèle Bleu; chevron Bleu monochrome sur chevron Bleu marine.</p>
+            </figcaption>
+            <img src="../img/mobile/blog/imgBlog4.png" alt="chaussette bleu">
+          </figure>
+        </section>
+        <section>
+          <a href="#" class="text-muted"><h2>Les résultats de la sélection #9</h2></a>
+          <figure>
+            <figcaption>
+              <p>Merci à tous pour vos votes! « Bowie Forever » se place donc en tête laissant « Flying V » et « Rock’n roll » en deuxième et troisième position. Bravo à Riot Grrrrl qui gagne ces élections et retrouvez bientôt le motif « Bowie forever » sur une future édition limitée! Merci à Nicouze et Aurélie pour votre participation, à bientôt pour une prochaine sélection!</p>
+            </figcaption>
+            <img src="../img/mobile/blog/imgBlog5.png" alt="tissus avec eclair dessus">
+          </figure>
+        </section>
       </section>
     </section>
 
   </main>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/jquery-3.2.1.js"></script>
+  <script src="../js/bootstrap.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="../js/jquery-3.2.1.js"></script>
   </body>
   </html>
