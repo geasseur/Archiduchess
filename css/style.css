@@ -1,4 +1,4 @@
-#espadrille{
-  border: 1px solid #000;
-  margin: 10px;
+.nav .nav-item .nav-link{
+  list-style-type: none;
+
 }
