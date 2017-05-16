@@ -15,21 +15,21 @@
       <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#"><img class="col-3 col-xs-3 col-ms-3 col-md-5 col-lg-10 col-xl-12 offset-2" src="../img/logo/Archiduchess.png" alt="logo site"></a>
+      <a class="navbar-brand" href="#"><img class="offset-1 col-2 col-xs-6 col-ms-6 col-md-8 col-lg-8 col-xl-9" src="img/logo/Archiduchess.png" alt="logo site"></a>
 
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" class="col-9 col-lg-3" id="navbarSupportedContent">
         <div class="container">
-          <section class="row" id="">
+          <section class="row-eq-height" id="">
             <ul class="nav justify-center col-10">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Index<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="../index.html">Index<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="html/blog.html">Blog</a>
+                <a class="nav-link" href="blog.html">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="html/blog.html">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
 
@@ -53,6 +53,20 @@
                 <a class="nav-link" href="html/blog.html">Collants</a>
               </li>
             </ul>
+            </div>
+            <div class="container hidden-md-down" id="cadis">
+              <div class="row justify-content-center">
+                <select class="custom-select col-4" name="">
+                  <option value="fr" selected="fr">FR</option>
+                  <option value="de">DE</option>
+                  <option value="eng">ENG</option>
+                  <option value="es">ES</option>
+                  <option value="rus">RUS</option>
+                </select>
+
+                <p class="col-4 offset-4">Bienvenu <a href="#">Connection</a></p>
+                <p class="col-10 offset-1"><strong id="chiffreCadis">0</strong>Produit dans <a href="#">mon panier</a></p>
+              </div>
           </section>
         </div>
       </div>
@@ -211,6 +225,65 @@ A découvrir <a href="#" class="text-muted">ICI</a></p>
     </section>
 
   </main>
+
+  <footer class="container-fluid bg-faded">
+    <section class="container">
+    <section class="row">
+
+      <section class="container col-5 col-lg-4">
+        <section class="row align-items-center">
+          <img class="col-4" src="../img/logo/fabrique.png" alt=" fabrication française">
+          <a href="" class="col-6 text-muted">Fabrication <br> Française</a>
+        </section>
+
+      </section>
+      <section class="container col-5 col-lg-4">
+        <section class="row align-items-center">
+          <img class="col-4" src="../img/logo/payement.png" alt="moyen de payement">
+          <a class="col-6 text-muted" href="">Paiement <br> Sécurisé</a>
+        </section>
+
+      </section>
+      <section class="container col-5 col-lg-4 ">
+        <section class="row align-items-center">
+          <img class="col-4" src="../img/logo/livraison.png" alt="heure de livraison">
+          <a class="col-6 text-muted" href="">Livraison 24h/24</a>
+        </section>
+
+      </section>
+      <section class="container col-5 col-lg-4 ">
+        <section class="row">
+          <img class="col-4" src="../img/logo/adresse.png" alt="adresse">
+          <a class="col-6 text-muted" href="">38 rue de michelet Saint Etienne</a>
+        </section>
+      </section>
+
+      <section class="container col-5 col-lg-4">
+        <section class="row">
+          <img class="col-4" src="../img/logo/facebook.png" alt="facebook">
+          <a class="col-6 text-muted" href="">Facebook, <br> plus de 20000 <br> pouce en l'air</a>
+        </section>
+
+      </section>
+      <section class="container col-5 col-lg-4">
+        <section class="row">
+          <img class="col-4" src="../img/logo/twitter.png" alt="twitter">
+          <a class="col-6 text-muted" href="">Twitter 4409 followers</a>
+        </section>
+
+      </section>
+      <p class="col-8 offset-3 justify-content-center">Webdesign et Développement par Axome - Motorisé sous Prestashop</p>
+      <section class="container col-5 col-lg-3">
+        <section class="row">
+          <label class="col-10" for="input">newsletter</label>
+          <input type="text">
+          <button type="submit">ok</button>
+        </section>
+      </section>
+      <p></p>
+    </section>
+    </section>
+  </footer>
   <script src="../js/bootstrap.js"></script>
 
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
